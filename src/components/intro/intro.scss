@@ -1,0 +1,158 @@
+.intro{
+    background-color: 	#20242a;
+    display: flex;
+
+    .left{
+        flex:0.5;
+        overflow: hidden;
+        background-color: #20242a;
+
+
+        .imgContainer{
+            width:40% ;
+            height: 90 ;
+            //width: 50%;
+            //height: 50;
+            //overflow: hidden;
+            //background-color: #FAEBD7;
+            //border-radius: 50%;
+            display: flex;
+            //align-items:flex-start;
+            //justify-content: right;
+            float:right;
+            //margin-top: 150px;
+
+            img{
+                width: 100%;
+            }
+        }
+        .imgContainer2{
+            width: 5.9375em;
+            height: 3.75em;
+            overflow: hidden;
+            //background-color: #FAEBD7;
+            //border-radius: 50%;
+            display: flex;
+            align-items: left;
+            justify-content: left;
+            float: left;
+            margin-left: 1.25;
+            padding: 0em;
+
+            img{
+                width: 100%;
+            }
+
+        }
+    }
+    .right{
+        flex:0.75;
+        position: relative;
+        background-color: #2B3038;
+        //background-image: url("https://c4.wallpaperflare.com/wallpaper/400/800/53/geometry-cyberspace-digital-art-lines-wallpaper-preview.jpg");
+        
+        //.imgContainer3{
+            //width: 25px;
+            //height: 25px;
+            //overflow: hidden;
+            //background-color: #FAEBD7;
+            //border-radius: 50%;
+            //display: flex;
+            //align-items: right;
+            //justify-content: right;
+            //float: right;
+            //margin: 0px;
+            //padding: 0px;
+
+            //img{
+                //width: 100%;
+            //}
+
+        }
+
+        .imgContainer3{
+            position: absolute;
+            width: 6.25em;
+            height: 6.25em;
+            overflow: hidden;
+            //background-color: #FAEBD7;
+            //border-radius: 50%;
+            display: flex;
+            align-items: left;
+            justify-content: left;
+            float: left;
+            margin-left: 5em;
+            padding: 0px;
+            bottom:1.5625em;
+            right:1.5625em;
+            opacity:0.8;
+
+            img{
+                //width: 100%;
+            }
+
+        }
+
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            padding-left: 3.125em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1{
+                font-size: 2.5em;
+                margin: 0.625em 0;
+                color: #f1d9be;
+            }
+
+            h2{
+                font-size: 1.25em;
+                color : #ffffff;
+
+            }
+            h3{
+                font-size: 1.25em;
+                color: #f1d9be;
+
+                span{
+                    font-size: inherit;
+                    color:#ff662b ;
+                }
+
+            }       
+            
+            .ityped-cursor{
+                animation:  blink 1s infinite;
+            }
+
+            @keyframes blink {
+                50%{
+                    opacity: 1;
+                }
+                100%{
+                    opacity: 0;
+                }
+
+
+            }
+        }
+        a{
+            position: absolute;
+            bottom: 0.625em;
+            left: 40%;
+
+            img{
+                width: 3.125em;
+                animation: arrowBlink 4s infinite;
+
+            }
+
+            @keyframes arrowBlink{
+                100%{
+                    opacity: 0; 
+                }
+            }
+        }    
+    }

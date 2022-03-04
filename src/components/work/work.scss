@@ -1,0 +1,173 @@
+.work {
+  position: relative; 
+  height: 100vh;
+  width: 100%;
+  //display: flex;
+  padding-top: 2.5em;
+  align-items: center;
+  justify-content: center;
+  background-color: #2B3038;
+  
+
+  
+}
+
+.work::before {    
+    content: "";
+    background-image: url('https://picjumbo.com/wp-content/uploads/designer-wooden-workspace-2210x1474.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0em;
+    right: 0em;
+    bottom: 0em;
+    left: 0em;
+    opacity: 0.15;
+}
+
+.imgContainer5{
+width: 23%;
+height: 52%;
+overflow: hidden;
+//background-color: #FAEBD7;
+//border-radius: 50%;
+display: flex;
+align-items: left;
+justify-content: left;
+float: left;
+margin-top: 2.5em;
+margin-left: 9.3em;
+padding: 0em;
+
+img{
+  width: 100%;
+  }
+}
+
+  .imgContainer6{
+    width: 23%;
+    height: 52%;
+    overflow: hidden;
+    //background-color: #FAEBD7;
+    //border-radius: 50%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    float: right;
+    margin-top: 2.5em;
+    margin-right: 9.375em;
+    padding: 0em;
+  
+    img{
+      width: 100%;
+      }
+}
+
+.imgContainer7{
+width: 23%;
+height: 52%;
+overflow: hidden;
+//background-color: #FAEBD7;
+//border-radius: 50%;
+display: flex;
+align-items: left;
+justify-content: right;
+float: left;
+margin-top: 2.5em;
+margin-left: 2.5em;
+padding: 0em;
+
+img{
+  width: 100%;
+  }
+}
+
+.imgContainer9{
+  width: 7%;
+  height: 16%;
+  overflow: hidden;
+  position: absolute;
+  display: flex;
+  align-items:right;
+  justify-content: right;
+  float: right;
+  margin-top: 1px;
+  margin-bottom: 1.25em;
+  margin-left: 68.75em;
+  padding: 0em;
+  top: 3.75em;
+  right: 2.1875em;
+  img{
+    width: 100%;
+    }
+  }
+
+.imgContainer8{
+  width: 5%;
+  height: 10%;
+  //overflow: hidden;
+  position:absolute;
+  //background-color: #FAEBD7;
+  //border-radius: 50%;
+  display: flex;
+  //align-items: right;
+  //justify-content: right;
+  float: right;
+  margin-left: 68.75em;
+  margin-bottom: 50em;
+  top:8.4375em;
+  right: 4.375em;
+
+
+  img{
+    width: 100%;
+    }
+  }
+
+  .imgContainer10{
+    width: 3%;
+    height: 6.5%;
+    //overflow: hidden;
+    position:absolute;
+    //background-color: #FAEBD7;
+    //border-radius: 50%;
+    display: flex;
+    //align-items: right;
+    //justify-content: right;
+    //float: right;
+    //margin-left: 1100px;
+    //margin-bottom: 800px;
+    bottom:3.75em;
+    left:1.25em;
+
+  
+    img{
+      width: 100%;
+      }
+    }
+
+
+
+
+h4 {
+position: relative;
+color: #f1d9be;  
+font-size: 0.75em;
+line-height: 1;
+text-align: center;
+margin: 0.6em;
+padding : 0.028125em;
+}
+
+
+
+  
+
+
+
+
+
+
+    
+
+
+
